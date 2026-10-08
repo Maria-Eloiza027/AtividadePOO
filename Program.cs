@@ -4,7 +4,7 @@ internal class Program
 {
     private static void Main(string[] args)
     {
-        Veiculo[] veiculo =
+        Veiculo[] veiculos =
         [
             new Caminhao("Mercedes", 1970),
 
@@ -13,7 +13,7 @@ internal class Program
             new Carro("Porsche", 1963)
         ];
 
-        foreach (var veiculoAtual in veiculo)
+        foreach (var veiculoAtual in veiculos)
         {
             veiculoAtual.Ligar();
             veiculoAtual.Acelerar();

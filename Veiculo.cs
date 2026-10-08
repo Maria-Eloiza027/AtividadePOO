@@ -8,7 +8,7 @@ public abstract class Veiculo
         Ano = ano;
     }
 
-    public string Modelo { get; }
+    public string Modelo { get; private set; }
     public int Ano { get; private set; }
 
     public void Ligar()
